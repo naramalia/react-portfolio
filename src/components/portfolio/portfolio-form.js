@@ -247,15 +247,15 @@ export default class PortfolioForm extends Component {
                     <div className="image-uploaders">
                         {this.state.thumb_image_url && this.state.editMode ? (
                             <div className="portfolio-manager-image-wrapper">
-                            <img src={this.state.thumb_image_url}/>
+                                <img src={this.state.thumb_image_url}/>
 
-                            <div className="image-removal-link">
-                                <a onClick={() =>
-                                    this.deleteImage("thumb_image")}>
-                                    <FontAwesomeIcon icon ="backspace" />
-                                </a>
+                                <div className="image-removal-link">
+                                    <a onClick={() =>
+                                        this.deleteImage("thumb_image")}>
+                                        <FontAwesomeIcon icon ="backspace" />
+                                     </a>
+                                </div>
                             </div>
-                        </div>
                            ) : (
                         <DropzoneComponent
                             ref={this.thumbRef}
