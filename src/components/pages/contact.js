@@ -12,6 +12,9 @@ export default function() {
             background: "url(" + contactImg + ") no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center",
+            borderRadius: "400px",
+            boxShadow: "0px 0px 20px 20px darkgray",
+            marginLeft: "15px"
           }}
         />
 

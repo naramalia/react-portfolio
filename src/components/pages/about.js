@@ -12,15 +12,18 @@ export default function() {
             background: "url(" + aboutImg + ") no-repeat",
             backgroundSize: "cover",
             backgroundPosition: "center",
+            borderRadius: "500px",
+            boxShadow: "0px 0px 40px 20px grey",
+            marginLeft: "15px"
           }}
+          
         />
 
         <div className="right-column">
-          <div className="about-title">Nara Malia Cardenas</div>
+          <div className="about-title">nara malia</div>
             <div className="about-text">
-            Nara Malia Cardenas is a full stack developer based in Utah. 
-            Current skills include HTML/CSS, Python, JavaScript, and React. 
-            She built this portfolio app as part of the Bottega coding bootcamp curriculum.
+            A full stack developer based in Draper, Utah, Nara's skills include HTML/CSS, Python, JavaScript, and React. 
+            Born and raised in Hawaii, she is proficient in the Hawaiian language and passionate about Hawaiian culture. She has a broad range of experience encompassing entertainment, customer service, education, and government. Her interests include music, theatre, and design.
           </div>
         </div>
       </div>
